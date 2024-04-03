@@ -1,0 +1,39 @@
+Index.vue:156 Editing product: Proxy(Object) {id: 22, name: 'pacacetamol', quantidade: '6', cod: 1, total: '72', …}
+runtime-core.esm-bundler.js:41 [Vue warn]: Failed to resolve component: q-card-title
+If this is a native custom element, make sure to exclude it from component resolution via compilerOptions.isCustomElement. 
+  at <Index onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< Proxy(Object) {fetchProducts: ƒ, addProduct: ƒ, editProduct: ƒ, confirmEditProduct: ƒ, confirmDeleteProduct: ƒ, …} > > 
+  at <RouterView> 
+  at <QPageContainer> 
+  at <QLayout view="lHh Lpr lFf" > 
+  at <MainLayout onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< Proxy(Object) {performSearch: ƒ, logout: ƒ, toggleLeftDrawer: ƒ, updateDateTime: ƒ, …} > > 
+  at <RouterView> 
+  at <App>
+warn @ runtime-core.esm-bundler.js:41
+resolveAsset @ runtime-core.esm-bundler.js:2747
+resolveComponent @ runtime-core.esm-bundler.js:2708
+render @ Index.vue:75
+renderComponentRoot @ runtime-core.esm-bundler.js:821
+componentUpdateFn @ runtime-core.esm-bundler.js:5812
+run @ reactivity.esm-bundler.js:178
+instance.update @ runtime-core.esm-bundler.js:5862
+callWithErrorHandling @ runtime-core.esm-bundler.js:158
+flushJobs @ runtime-core.esm-bundler.js:362
+Promise.then (async)
+queueFlush @ runtime-core.esm-bundler.js:275
+queueJob @ runtime-core.esm-bundler.js:269
+eval @ runtime-core.esm-bundler.js:5858
+triggerEffect @ reactivity.esm-bundler.js:373
+triggerEffects @ reactivity.esm-bundler.js:363
+trigger @ reactivity.esm-bundler.js:335
+set @ reactivity.esm-bundler.js:489
+set @ runtime-core.esm-bundler.js:2997
+editProduct @ Index.vue:159
+onClick @ Index.vue:30
+callWithErrorHandling @ runtime-core.esm-bundler.js:158
+callWithAsyncErrorHandling @ runtime-core.esm-bundler.js:166
+emit @ runtime-core.esm-bundler.js:669
+navigateOnClick @ use-router-link.js:285
+onClick @ QBtn.js:149
+callWithErrorHandling @ runtime-core.esm-bundler.js:158
+callWithAsyncErrorHandling @ runtime-core.esm-bundler.js:166
+invoker @ runtime-dom.esm-bundler.js:595
